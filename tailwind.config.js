@@ -4,13 +4,18 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      Primary: '#00A0AA',
-      Secondary: "#FFC567",
-      C_grey: "#D9D9D9",
-      Light_Grey:" #979797"
-    }
+    extend: {
+      colors: {
+        primary: "#00A0AA",
+        secondary: "#FFC567",
+        "c-grey": "#D9D9D9",
+        "light-grey":" #979797"
+      },
+      width: {
+        container: "1140px"
+      },
+      
+    },
   },
   plugins: [],
 }

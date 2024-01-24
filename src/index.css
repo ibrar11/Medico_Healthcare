@@ -1,9 +1,32 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
 
-@layer components {
-    .container {
-        width: 1134px;
-    }
-};
+@font-face {
+  font-family: Satoshi;
+  src: url("./fonts/Satoshi-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url("./fonts/Satoshi-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url('./fonts/Satoshi-Regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url('./fonts/Satoshi-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
