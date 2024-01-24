@@ -12,7 +12,7 @@ module.exports = {
         "light-grey":" #979797"
       },
       width: {
-        container: "1140px"
+        container: "1180px"
       },
       
     },
