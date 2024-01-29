@@ -3,37 +3,10 @@ import { NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { Container, ListItem, Button, Divider } from "../index";
+import { links } from "../data/navLinksData";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
-
-  const links = [
-    {
-      key: 0,
-      name: "Home",
-      to: "/",
-    },
-    {
-      key: 1,
-      name: "About",
-      to: "/about",
-    },
-    {
-      key: 2,
-      name: "Health Check",
-      to: "/about",
-    },
-    {
-      key: 3,
-      name: "Doctors",
-      to: "/about",
-    },
-    {
-      key: 4,
-      name: "Department",
-      to: "/about",
-    },
-  ];
 
   const handleDropDown = () => {
     setDropDown(!dropDown);

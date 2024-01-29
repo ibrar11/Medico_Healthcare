@@ -2,7 +2,7 @@ export { default as ListItem } from "./ListItem";
 export { default as Container} from "./Container";
 export { default as Button} from "./Button";
 export { default as Divider} from "./Divider";
-export { default as TreatmentItem} from "./TreatmentItem";
+export { default as TreatmentCard} from "./TreatmentCard";
 
 // Sections
 export { default as HeroSection } from "./templates/HeroSection";

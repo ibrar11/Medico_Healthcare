@@ -1,66 +1,43 @@
 import React from "react";
-import { Container, Divider, TreatmentItem } from "../index";
+import { Container, Divider, TreatmentCard } from "../index";
+import { treatmentCards } from "../data/treatmentCardData";
 
 const Treatments = () => {
-  const images = [
-    {
-      key: 0,
-      src: "/images/PediatricianDoctor.png",
-      alt: "PediatricianDoctor",
-      text2: "Pediatrician",
-      styles: ""
-    },
-    {
-      key: 1,
-      src: "/images/CardiologistDoctor.png",
-      alt: "CardiologistDoctor",
-      text2: "Cardiologist",
-      styles: "md:place-self-end lg:place-self-center"
-    },
-    {
-      key: 3,
-      src: "/images/DermatologistDoctor.png",
-      alt: "DermatologistDoctor",
-      text2: "Dermatologist",
-      styles: "lg:place-self-end"
-    },
-  ];
+  
 
   return (
-    <div>
+    <section>
       <Divider />
       <Container>
-        <div className="flex flex-col items-center gap-y-24">
+        <div className="flex flex-col items-center gap-y-16">
           <div className="flex flex-col gap-y-11">
-            <h2 className="text-2xl font-bold sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl">
               Dedicated to provide best treatment.
             </h2>
-            <p className="font-medium text-lg sm:text-xl leading-normal lg:w-5/6">
+            <p className="text-lg font-medium leading-normal sm:text-xl lg:w-5/6">
               A wonderful serenity has taken possession of my entire soul, like
               these sweet mornings of spring which I enjoy with my whole heart.
               I am alone, and feel the charm of existence in this spot, which
               was created for the bliss of souls like mine.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-y-11 w-full h-full md:grid md:grid-cols-2 lg:grid-cols-3">
-            {images.map((image) => {
+          <div className="grid gap-y-16 w-full h-full sm:grid-cols-2 sm:gap-x-8 md:grid-cols-3">
+            {treatmentCards.map((card) => {
               return (
-                <TreatmentItem
-                  key={image.key}
-                  image={image.src}
-                  alt={image.alt}
-                  text2={image.text2}
-                  styles={image.styles}
+                <TreatmentCard
+                  key={card.id}
+                  image={card.imagePath}
+                  alt={card.alt}
+                  profession={card.profession}
+                  title={card.title}
                 />
               );
             })}
           </div>
         </div>
       </Container>
-      <Divider
-        verticalPadding="py-48"
-      />
-    </div>
+      <Divider verticalPadding="py-24" />
+    </section>
   );
 };
 
