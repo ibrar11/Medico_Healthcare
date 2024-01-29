@@ -1,23 +1,26 @@
 import React from "react";
-import { Container, Button, ListItem } from "../index";
+import { Container, Button, ListItem, Divider } from "../index";
 
 const HeroSection = () => {
   return (
     <section>
+      <Divider verticalPadding="py-5" />
       <Container>
         <div className=" flex flex-col items-center gap-y-4 sm:flex-row sm:gap-x-20 md:justify-between">
           <div className="relative flex max-h-[440px] max-w-md items-end justify-center overflow-visible rounded-lg bg-secondary sm:w-1/2">
             <img
               src="/images/firstImage.png"
-              alt="hero-section"
+              alt="hero-person"
               className="w-full sm:h-auto sm:w-auto"
             />
             <ListItem
               icon="/images/heartSkull.png"
               text="More than 10K Patients treated!"
-              styles="absolute bg-white flex gap-x-2 rounded-lg h-15 w-32 bottom-8 right-0 p-1 lg:w-32 lg:bottom-80 lg:right-80 xl:right-96"
-              textStyle="text-xs font-medium ml-0"
+              styles="absolute bg-white flex gap-x-1 rounded-lg h-15 w-36 bottom-6 right-0 p-1 lg:bottom-80 lg:right-80 xl:right-96"
+              textStyle="font-medium ml-0"
+              textSize="text-xs"
               iconStyle="w-max self-center "
+              alt="heartSkull"
             />
           </div>
           <div className="sm:flex sm:w-1/2 sm:items-center">
@@ -30,7 +33,7 @@ const HeroSection = () => {
               </h1>
               <Button
                 text="Discover More"
-                buttonStyle="w-full sm:w-auto bg-primary text-base font-bold text-white p-3 rounded-lg sm:self-start sm:px-5 sm:py-3"
+                buttonStyle="w-full sm:w-auto sm:self-start sm:px-5 sm:py-3"
               />
             </div>
           </div>

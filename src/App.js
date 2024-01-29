@@ -1,16 +1,15 @@
-// import { Route, Routes } from "react-router";
-// import About from "./components/About";
-import { HeroSection,TopBar,Header } from "./components";
+import { Route, Routes } from "react-router";
+import { TopBar, Header, Home, About } from "./components";
 
 function App() {
   return (
-    <div className="flex flex-col gap-y-7">
+    <div className="flex flex-col">
       <TopBar />
       <Header />
-      <HeroSection/>
-      {/* <Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
