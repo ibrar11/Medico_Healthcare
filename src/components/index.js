@@ -9,6 +9,7 @@ export { default as HeroSection } from "./templates/HeroSection";
 export { default as TopBar } from "./templates/TopBar";
 export { default as Header } from "./templates/Header";
 export { default as Treatments } from "./templates/Treatments";
+export { default as CheckUps } from "./templates/CheckUps";
 
 // Pages
 export { default as Home } from "./pages/Home";
