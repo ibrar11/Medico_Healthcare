@@ -9,18 +9,21 @@ const TopBar = () => {
           <ListItem
             icon="/images/location.svg"
             text="90919 Madie run Apt. 790"
-            textStyle="text-white sm:text-lg text-base"
+            textStyle="text-white sm:text-lg"
+            alt="location"
           />
           <ListItem
             icon="/images/ion-mail-outline.svg"
             text="medico@health.care"
-            textStyle="text-white sm:text-lg text-base"
+            textStyle="text-white sm:text-lg"
+            alt="ion-mail-outline"
           />
           <ListItem
             icon="/images/whatsapp.svg"
             text="Connect on Whatsapp"
             styles="md:ml-auto"
-            textStyle="underline underline-offset-4 text-white sm:text-lg text-base"
+            textStyle="underline underline-offset-4 text-white sm:text-lg"
+            alt="whatsapp"
           />
         </div>
       </Container>
