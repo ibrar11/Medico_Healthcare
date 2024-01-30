@@ -21,7 +21,7 @@ const ServiceCard = ({
           {serviceDescription}
         </p>
       </div>
-      <Link className="absolute -bottom-8 right-0 z-10 flex h-7 w-10 items-center justify-center bg-c-grey sm:-right-6 sm:-bottom-0 sm:h-10 sm:w-16 sm:text-xl md:-bottom-8 md:h-14 md:w-20 md:text-2xl">
+      <Link className="absolute -bottom-8 right-0 z-10 flex h-7 w-10 items-center justify-center rounded-br-xl bg-c-grey sm:-bottom-0 sm:-right-6 sm:h-10 sm:w-16 sm:text-xl md:-bottom-8 md:h-14 md:w-20 md:text-2xl">
         <FaArrowRight />
       </Link>
     </div>
