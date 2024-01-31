@@ -7,7 +7,7 @@ const Services = () => {
     <section>
       <Container>
         <div className="flex flex-col gap-y-10">
-          <div className="xl:gap-x-98.75 mx-2 flex flex-col gap-y-7 sm:flex-row sm:gap-x-32 md:gap-x-48 lg:gap-x-80">
+          <div className="xl:gap-x-98.75 px-2 flex flex-col gap-y-7 sm:flex-row sm:gap-x-32 md:gap-x-48 lg:gap-x-80">
             <div className="flex flex-col gap-y-5 sm:w-1/2">
               <h5 className="w-max text-base font-bold text-primary sm:text-sm">
                 SERVICES & TREATMENTS
