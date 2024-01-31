@@ -35,7 +35,7 @@ const Services = () => {
             })}
           </div>
         </div>
-        <Divider verticalPadding="py-24" />
+        <Divider verticalPadding="py-10" />
       </Container>
     </section>
   );
