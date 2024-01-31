@@ -11,7 +11,7 @@ const Treatments = () => {
       <Container>
         <div className="flex flex-col items-center gap-y-16">
           <div className="flex flex-col gap-y-11">
-            <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold sm:text-4xl md:text-46px">
               Dedicated to provide best treatment.
             </h2>
             <p className="text-lg font-medium leading-normal sm:text-xl lg:w-5/6">
