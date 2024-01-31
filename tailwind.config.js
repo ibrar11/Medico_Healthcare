@@ -12,6 +12,17 @@ module.exports = {
       },
       maxWidth: {
         container: "1180px",
+      },
+      padding: {
+        "10.37": "41.5px",
+      },
+      fontSize: {
+        10:"40px"
+      },
+      gap:{
+        "7.5":"30px",
+        "28.5":"114px",
+        "16.75":"67px"
       }
     },
   },
