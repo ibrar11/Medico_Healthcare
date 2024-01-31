@@ -3,8 +3,6 @@ import { Container, Divider, TreatmentCard } from "../index";
 import { treatmentCards } from "../data/treatmentCardData";
 
 const Treatments = () => {
-  
-
   return (
     <section>
       <Divider />
@@ -21,7 +19,7 @@ const Treatments = () => {
               was created for the bliss of souls like mine.
             </p>
           </div>
-          <div className="grid gap-y-16 w-full h-full sm:grid-cols-2 sm:gap-x-8 md:grid-cols-3">
+          <div className="grid h-full w-full gap-y-16 sm:grid-cols-2 sm:gap-x-8 md:grid-cols-3">
             {treatmentCards.map((card) => {
               return (
                 <TreatmentCard
