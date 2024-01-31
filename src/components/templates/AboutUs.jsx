@@ -28,7 +28,7 @@ const AboutUs = () => {
             </div>
             <div className="w-max-96 relative flex items-end justify-center rounded-xl after:absolute  after:bottom-0 after:left-0 after:z-10 after:h-32 after:w-full after:rounded-lg after:bg-secondary md:w-1/2">
               <img
-                className="z-20 h-auto w-auto"
+                className="z-20 h-auto w-auto rounded-lg"
                 src="/images/girlOnPhone.png"
                 alt="girlOnPhone"
               />
