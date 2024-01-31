@@ -7,8 +7,8 @@ const AboutUs = () => {
   return (
     <section className="bg-white">
       <Container>
-        <div className="sm:px-10 lg:gap-y-16.5 flex flex-col gap-y-8 px-3">
-          <div className="flex flex-col  items-center justify-center gap-y-10 sm:flex-row-reverse sm:items-end sm:justify-between md:gap-x-20 lg:gap-x-36">
+        <div className="sm:px-10 md:px-20 lg:gap-y-16.5 flex flex-col gap-y-8 px-3">
+          <div className="flex flex-col  items-center justify-center gap-y-10 sm:flex-row-reverse sm:items-end sm:justify-between sm:gap-x-5 lg:gap-x-36">
             <div className="flex w-full flex-col items-start gap-y-6 sm:w-1/2 sm:pb-3 md:pb-0">
               <h3 className="lg:text-10 text-2xl font-bold leading-normal md:text-4xl">
                 Why Choose Us?
