@@ -9,19 +9,19 @@ const ServiceCard = ({
   alt = "",
 }) => {
   return (
-    <div className="relative flex gap-x-5 sm:p-6 md:p-7">
-      <div className="w-36">
+    <div className="relative flex gap-x-5 overflow-hidden rounded-lg bg-white flex-col gap-y-4 sm:p-6 md:flex-row md:p-7">
+      <div className="min-w-7 max-w-28">
         <img src={imagePath} alt={alt} />
       </div>
       <div className="flex flex-col gap-y-3">
-        <h3 className="text-base font-bold sm:text-lg lg:text-2xl">
+        <h3 className="lg:text-3.5xl text-base font-bold sm:text-lg">
           {serviceTitle}
         </h3>
-        <p className="text-xs font-medium sm:text-sm lg:text-lg">
+        <p className="pr-20 sm:pr-14 text-base font-medium sm:text-sm lg:text-lg">
           {serviceDescription}
         </p>
       </div>
-      <Link className="absolute -bottom-8 right-0 z-10 flex h-7 w-10 items-center justify-center rounded-br-xl bg-c-grey sm:-bottom-0 sm:-right-6 sm:h-10 sm:w-16 sm:text-xl md:-bottom-8 md:h-14 md:w-20 md:text-2xl">
+      <Link className="h-13.75 w-20.25 absolute bottom-0 right-0 z-10 flex items-center justify-center bg-c-grey sm:text-xl md:text-2xl">
         <FaArrowRight />
       </Link>
     </div>

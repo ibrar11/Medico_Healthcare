@@ -12,7 +12,20 @@ module.exports = {
       },
       maxWidth: {
         container: "1180px",
-      }
+      },
+      width: {
+        "20.25":"81px"
+      },
+      height: {
+        "13.75":"55px"
+      },
+      gap:{
+        "98.75":"395px"
+      },
+      fontSize:{
+        "4.5xl":"46px",
+        "3.5xl":"32px"
+      },
     },
   },
   plugins: [],
