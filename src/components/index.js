@@ -5,12 +5,14 @@ export { default as Divider} from "./Divider";
 export { default as TreatmentCard} from "./TreatmentCard";
 export { default as Features} from "./Features";
 
+
 // Sections
 export { default as HeroSection } from "./templates/HeroSection";
 export { default as TopBar } from "./templates/TopBar";
 export { default as Header } from "./templates/Header";
 export { default as Treatments } from "./templates/Treatments";
 export { default as AboutUs } from "./templates/AboutUs";
+
 
 // Pages
 export { default as Home } from "./pages/Home";
