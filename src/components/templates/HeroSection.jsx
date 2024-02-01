@@ -16,10 +16,9 @@ const HeroSection = () => {
             <ListItem
               icon="/images/heartSkull.png"
               text="More than 10K Patients treated!"
-              styles="absolute bg-white flex gap-x-1 rounded-lg h-15 w-36 bottom-6 right-0 p-1 lg:bottom-80 lg:right-80 xl:right-96"
-              textStyle="font-medium ml-0"
-              textSize="text-xs"
-              iconStyle="w-max self-center "
+              styles="absolute bg-white flex rounded-lg  bottom-6 right-10 lg:bottom-80 lg:right-80"
+              textStyle="text-xs font-medium sm:ml-0"
+              iconStyle="max-w-7 min-w-7 self-center "
               alt="heartSkull"
             />
           </div>
@@ -28,7 +27,7 @@ const HeroSection = () => {
               <h5 className="w-max text-base font-bold text-primary">
                 Welcome to Medico Healthcare
               </h5>
-              <h1 className="text-center text-4xl font-bold sm:text-left sm:leading-snug md:text-5xl md:leading-snug lg:text-6xl lg:leading-normal">
+              <h1 className="text-center text-3xl font-bold sm:text-left sm:leading-snug md:text-5xl md:leading-snug lg:text-6xl xl:text-7xl lg:leading-normal">
                 Your Journey to Better Health Starts Here
               </h1>
               <Button
