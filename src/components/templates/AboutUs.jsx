@@ -50,7 +50,7 @@ const AboutUs = () => {
             />
           </div>
         </div>
-        <Divider verticalPadding="py-20" />
+        <Divider verticalPadding="py-10" />
       </Container>
     </section>
   );

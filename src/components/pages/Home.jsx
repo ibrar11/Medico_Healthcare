@@ -1,11 +1,12 @@
 import React from "react";
-import { Treatments, HeroSection, AboutUs } from "../index";
+import { Treatments, HeroSection, Services, AboutUs } from "../index";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
       <Treatments />
+      <Services/>
       <AboutUs/>
     </>
   );
