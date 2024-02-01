@@ -7,9 +7,9 @@ const Treatments = () => {
     <section>
       <Divider />
       <Container>
-        <div className="flex flex-col items-center gap-y-16">
-          <div className="flex flex-col gap-y-11">
-            <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl">
+        <div className="flex flex-col items-center sm:gap-y-14 xl:gap-y-20">
+          <div className="flex flex-col gap-y-6">
+            <h2 className="md:text-46px text-3xl font-bold sm:text-4xl">
               Dedicated to provide best treatment.
             </h2>
             <p className="text-lg font-medium leading-normal sm:text-xl lg:w-5/6">
@@ -34,7 +34,7 @@ const Treatments = () => {
           </div>
         </div>
       </Container>
-      <Divider verticalPadding="py-24" />
+      <Divider verticalPadding="py-10" />
     </section>
   );
 };
