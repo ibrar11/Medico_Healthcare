@@ -1,10 +1,12 @@
 import React from "react";
 
-const Features = ({ svgPath = "", alt = "", feature = "" }) => {
+const Features = ({ svgPath = "", alt = "", feature = "", textStyle = "" }) => {
   return (
-    <div className="flex  sm:gap-x-4 ">
+    <div className="flex items-center gap-x-2 sm:gap-x-4 ">
       <img src={svgPath} alt={alt} />
-      <p className="text-base font-medium leading-normal sm:text-lg md:text-xl">
+      <p
+        className={`text-base font-medium leading-normal xl:text-lg ${textStyle}`}
+      >
         {feature}
       </p>
     </div>

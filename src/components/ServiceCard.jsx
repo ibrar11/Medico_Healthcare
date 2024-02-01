@@ -9,15 +9,15 @@ const ServiceCard = ({
   alt = "",
 }) => {
   return (
-    <div className="relative flex flex-col gap-x-5 gap-y-4 overflow-hidden rounded-lg bg-white sm:p-6 md:flex-row md:p-7">
-      <div className="min-w-7 max-w-28">
+    <div className="relative flex flex-col gap-x-3 gap-y-4 overflow-hidden rounded-lg bg-white sm:p-6 lg:flex-row lg:p-7">
+      <div className="min-w-7 max-w-8 lg:w-full">
         <img src={imagePath} alt={alt} />
       </div>
       <div className="flex flex-col gap-y-3">
-        <h3 className="lg:text-3.5xl text-base font-bold sm:text-lg">
+        <h3 className="lg:text-3.5xl text-base font-bold leading-normal sm:text-lg">
           {serviceTitle}
         </h3>
-        <p className="pr-20 text-base font-medium sm:pr-14 sm:text-sm lg:text-lg">
+        <p className="pr-20 text-base font-medium leading-normal sm:pr-14 sm:text-sm lg:text-lg">
           {serviceDescription}
         </p>
       </div>

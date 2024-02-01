@@ -13,9 +13,10 @@ const CheckUps = () => {
   return (
     <section>
       <Container>
-        <div className="flex flex-col gap-y-10 md:px-5 xl:px-10">
-          <div className="mx-3 flex flex-col gap-y-5 sm:mx-16 md:mx-20 md:gap-y-7 lg:mx-48 lg:gap-y-10 xl:mx-60">
-            <div className="flex flex-col items-center gap-y-5 md:gap-y-7">
+        <Divider verticalPadding="py-5 sm:py-10" />
+        <div className="flex flex-col gap-y-10 sm:px-5 md:px-9 lg:px-16 xl:px-20">
+          <div className="flex flex-col gap-y-5  md:gap-y-7  lg:gap-y-10">
+            <div className="flex flex-col items-center gap-y-5 sm:mx-6 md:mx-14 md:gap-y-7 lg:mx-36 xl:mx-48">
               <h3 className="lg:text-10 text-2xl font-bold leading-normal md:text-4xl">
                 Health Checkup Plans
               </h3>
@@ -24,42 +25,46 @@ const CheckUps = () => {
                 Semantics, a large language ocean named flows.
               </p>
             </div>
-            <div className="grid grid-cols-1 place-items-start  gap-y-5 sm:grid-cols-3">
+            <div className="flex w-full max-w-xl flex-col place-self-center rounded-lg bg-white p-5 sm:flex-row sm:justify-between">
               <p
                 onClick={() => handleTab("first")}
-                className={`cursor-pointer rounded-lg px-1 py-3 text-base font- text-center w-full leading-normal sm:text-lg md:text-xl lg:p-3 ${tab === "first" ? "bg-primary text-white  w-full" : ""}`}
+                className={`cursor-pointer rounded-lg p-4  text-center text-base font-bold leading-normal sm:text-lg md:text-xl ${tab === "first" ? "bg-primary text-white" : ""}`}
               >
                 Woman Health
               </p>
               <p
                 onClick={() => handleTab("second")}
-                className={`cursor-pointer rounded-lg px-1 py-3 text-base font- text-center w-full leading-normal sm:text-lg md:text-xl lg:p-3 ${tab === "second" ? "bg-primary text-white  w-full" : ""}`}
+                className={`cursor-pointer rounded-lg p-4 text-center text-base font-bold leading-normal sm:text-lg md:text-xl ${tab === "second" ? "bg-primary text-white" : ""}`}
               >
                 Cancer Screening
               </p>
               <p
                 onClick={() => handleTab("third")}
-                className={`cursor-pointer rounded-lg px-1 py-3 text-base font- text-center w-full leading-normal sm:text-lg md:text-xl lg:p-3 ${tab === "third" ? "bg-primary text-white  w-full" : ""}`}
+                className={`cursor-pointer rounded-lg p-4 text-center text-base font-bold leading-normal sm:text-lg md:text-xl ${tab === "third" ? "bg-primary text-white" : ""}`}
               >
                 Kids Vaccines
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-y-5 sm:flex-row sm:items-end sm:gap-x-2 md:gap-x-5 lg:gap-x-10">
+          <div className="flex flex-col gap-y-10 sm:flex-row sm:items-end sm:gap-x-2 md:gap-x-5 lg:gap-x-10">
             <div className="flex flex-col gap-y-5 sm:w-1/2">
-              <div>
+              <div className="w-max rounded-full bg-primary">
                 <img
                   src="/images/whitehealthcare.svg"
                   alt="healthcare"
-                  className="bg-primary"
+                  className="p-2"
                 />
               </div>
               <div className="flex flex-col gap-y-7 lg:gap-y-12">
                 <div className="flex flex-col gap-y-3 lg:gap-y-5">
-                  <h3 className="lg:text-3.5xl text-base font-bold sm:text-lg">
-                  {tab === "first" ? "Woman Health Checkup" : tab === "second" ? "Cancer Screening" : "Kids Vaccines"}
+                  <h3 className="lg:text-3.5xl text-xl font-bold sm:text-2xl">
+                    {tab === "first"
+                      ? "Woman Health Checkup"
+                      : tab === "second"
+                        ? "Cancer Screening"
+                        : "Kids Vaccines"}
                   </h3>
-                  <p className="text-base font-medium lg:text-lg">
+                  <p className="text-base font-medium sm:text-lg">
                     A wonderful serenity has taken possession of my entire soul,
                     like these sweet mornings of spring.
                   </p>
@@ -76,7 +81,7 @@ const CheckUps = () => {
                     );
                   })}
                 </div>
-                <Link>
+                <Link className="hidden sm:block">
                   <Button
                     text="Take An Appointment"
                     buttonStyle="w-full sm:w-auto sm:self-start sm:px-5 sm:py-3"
@@ -91,9 +96,15 @@ const CheckUps = () => {
                 alt="girlWithLaptop"
               />
             </div>
+            <Link className="sm:hidden">
+              <Button
+                text="Take An Appointment"
+                buttonStyle="w-full sm:w-auto sm:self-start sm:px-5 sm:py-3"
+              />
+            </Link>
           </div>
         </div>
-        <Divider verticalPadding="py-10" />
+        <Divider verticalPadding="py-5 sm:py-10" />
       </Container>
     </section>
   );
