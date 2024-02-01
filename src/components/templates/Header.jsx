@@ -62,9 +62,9 @@ const Header = () => {
           >
             <nav className="text-sm lg:flex lg:items-center">
               <ul className="flex flex-col pl-4 lg:flex-row lg:items-center">
-                <li className="px-2 py-2  lg:px-1.5">
-                  {links.map((link) => {
-                    return (
+                {links.map((link) => {
+                  return (
+                    <li className="px-4 py-2">
                       <NavLink
                         key={link.key}
                         to={link.to}
@@ -74,9 +74,9 @@ const Header = () => {
                       >
                         {link.name}
                       </NavLink>
-                    );
-                  })}
-                </li>
+                    </li>
+                  );
+                })}
               </ul>
             </nav>
             <ListItem

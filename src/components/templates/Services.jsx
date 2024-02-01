@@ -7,18 +7,18 @@ const Services = () => {
     <section>
       <Container>
         <div className="flex flex-col gap-y-10">
-          <div className="flex flex-col gap-y-7 sm:flex-row">
+          <div className="xl:gap-x-98.5 flex flex-col gap-y-7 px-2 sm:flex-row sm:gap-x-32 md:gap-x-48 lg:gap-x-80">
             <div className="flex flex-col gap-y-5 sm:w-1/2">
-              <h5 className="w-max text-xs font-bold text-primary sm:text-sm md:text-base">
+              <h5 className="w-max text-base font-bold text-primary sm:text-sm">
                 SERVICES & TREATMENTS
               </h5>
-              <h2 className="text-3xl font-bold leading-normal sm:text-4xl">
+              <h2 className="sm:text-4.5xl text-3xl font-bold leading-normal">
                 More than 40 specialty and health care services
               </h2>
             </div>
             <Button
-              text="Discover More"
-              buttonStyle="w-full sm:w-auto sm:self-start sm:px-5 sm:py-3 sm:ml-auto sm:self-end"
+              text="See All Services"
+              buttonStyle="w-full sm:w-auto sm:self-start sm:p-5 sm:self-end"
             />
           </div>
           <div className="grid gap-y-10 sm:grid-cols-2 sm:gap-x-10 sm:px-10">
@@ -35,7 +35,7 @@ const Services = () => {
             })}
           </div>
         </div>
-        <Divider verticalPadding="py-24" />
+        <Divider verticalPadding="py-10" />
       </Container>
     </section>
   );
