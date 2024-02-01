@@ -6,10 +6,11 @@ const Services = () => {
   return (
     <section>
       <Container>
+        <Divider verticalPadding="py-5 sm:py-10" />
         <div className="flex flex-col gap-y-10">
           <div className="xl:gap-x-98.5 flex flex-col gap-y-7 px-2 sm:flex-row sm:gap-x-32 md:gap-x-48 lg:gap-x-80">
-            <div className="flex flex-col gap-y-5 sm:w-1/2">
-              <h5 className="w-max text-base font-bold text-primary sm:text-sm">
+            <div className="flex flex-col gap-y-3 sm:w-1/2 sm:gap-y-5">
+              <h5 className="w-max text-base font-bold text-primary">
                 SERVICES & TREATMENTS
               </h5>
               <h2 className="sm:text-4.5xl text-3xl font-bold leading-normal">
@@ -35,7 +36,7 @@ const Services = () => {
             })}
           </div>
         </div>
-        <Divider verticalPadding="py-10" />
+        <Divider verticalPadding="py-5 sm:py-10" />
       </Container>
     </section>
   );

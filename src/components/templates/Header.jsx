@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <header>
-      <Divider verticalPadding="py-2" />
+      <Divider verticalPadding="py-1 sm:py-5" />
       <Container>
         <div className="relative flex flex-col gap-y-2 bg-white px-7 py-5 lg:flex-row">
           <div className="flex flex-wrap items-center justify-between">
@@ -64,7 +64,7 @@ const Header = () => {
               <ul className="flex flex-col pl-4 lg:flex-row lg:items-center">
                 {links.map((link) => {
                   return (
-                    <li className="px-4 py-2">
+                    <li className="px-2 py-2">
                       <NavLink
                         key={link.key}
                         to={link.to}
@@ -83,7 +83,7 @@ const Header = () => {
               icon="/images/phoneReciever.svg"
               text="1005-346-272"
               textStyle="text-black"
-              styles="w-max px-8"
+              styles="px-8"
             />
             <Button text="Appointment" buttonStyle="lg:px-5 lg:py-3" />
           </div>

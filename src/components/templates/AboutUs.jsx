@@ -7,7 +7,8 @@ const AboutUs = () => {
   return (
     <section className="bg-white">
       <Container>
-        <div className="sm:px-10 md:px-20 lg:gap-y-16.5 flex flex-col gap-y-8 px-3">
+        <Divider verticalPadding="py-5 sm:py-10" />
+        <div className="lg:gap-y-16.5 flex flex-col gap-y-8 px-3 sm:px-10 md:px-20">
           <div className="flex flex-col  items-center justify-center gap-y-10 sm:flex-row-reverse sm:items-end sm:justify-between sm:gap-x-5 lg:gap-x-36">
             <div className="flex w-full flex-col items-start gap-y-6 sm:w-1/2 sm:pb-3 md:pb-0">
               <h3 className="lg:text-10 text-2xl font-bold leading-normal md:text-4xl">
@@ -21,6 +22,7 @@ const AboutUs = () => {
                       svgPath="/images/circularCheck.svg"
                       alt="circularCheck"
                       feature={feature}
+                      textStyle="md:text-xl"
                     />
                   );
                 })}
@@ -34,7 +36,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <div className="md:gap-y-10 flex flex-col gap-y-5 sm:gap-y-8">
+          <div className="flex flex-col gap-y-5 sm:gap-y-8 md:gap-y-10">
             <div className="lg:gap-y-7.5 flex flex-col gap-y-4">
               <h3 className="lg:text-10 text-2xl font-bold leading-normal md:text-4xl">
                 Wellness, Compassion, Quality
@@ -53,7 +55,7 @@ const AboutUs = () => {
             </Link>
           </div>
         </div>
-        <Divider verticalPadding="py-10" />
+        <Divider verticalPadding="py-5 sm:py-10" />
       </Container>
     </section>
   );

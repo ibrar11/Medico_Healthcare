@@ -4,7 +4,7 @@ import { Container, Button, ListItem, Divider } from "../index";
 const HeroSection = () => {
   return (
     <section>
-      <Divider verticalPadding="py-5" />
+      <Divider verticalPadding="py-5 sm:py-10" />
       <Container>
         <div className=" flex flex-col items-center gap-y-4 sm:flex-row sm:gap-x-20 md:justify-between">
           <div className="relative flex max-h-[440px] max-w-md items-end justify-center overflow-visible rounded-lg bg-secondary sm:w-1/2">
@@ -27,7 +27,7 @@ const HeroSection = () => {
               <h5 className="w-max text-base font-bold text-primary">
                 Welcome to Medico Healthcare
               </h5>
-              <h1 className="text-center text-3xl font-bold sm:text-left sm:leading-snug md:text-5xl md:leading-snug lg:text-6xl xl:text-7xl lg:leading-normal">
+              <h1 className="text-center text-3xl font-bold sm:text-left sm:leading-snug md:text-5xl md:leading-snug lg:text-6xl lg:leading-normal xl:text-7xl">
                 Your Journey to Better Health Starts Here
               </h1>
               <Button
@@ -38,6 +38,7 @@ const HeroSection = () => {
           </div>
         </div>
       </Container>
+      <Divider verticalPadding="py-5 sm:py-10" />
     </section>
   );
 };
