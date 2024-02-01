@@ -13,6 +13,9 @@ module.exports = {
       maxWidth: {
         container: "1180px",
       },
+      padding: {
+        "7.5":"30px"
+      },
       height: {
         13.5: "54px",
       },
@@ -22,6 +25,7 @@ module.exports = {
       fontSize: {
         "4.5xl": "46px",
         "3.5xl": "32px",
+        "46px": "46px",
       },
     },
   },
