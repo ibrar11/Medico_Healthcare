@@ -7,7 +7,7 @@ const ListItem = ({
   textStyle = "",
   textSize = "text-base",
   iconStyle = "",
-  alt = ""
+  alt = "",
 }) => {
   return (
     <div className={`flex items-center ${styles}`}>
