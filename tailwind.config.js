@@ -12,7 +12,7 @@ module.exports = {
       },
       maxWidth: {
         container: "1180px",
-      }
+      },
     },
   },
   plugins: [],
