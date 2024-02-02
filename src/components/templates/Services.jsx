@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Button, Divider, ServiceCard } from "../index";
-import { serviceData } from "../data/serviceCardData";
+import { serviceData } from "../../data/serviceCardData";
 
 const Services = () => {
   return (

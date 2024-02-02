@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { Container, ListItem, Button, Divider } from "../index";
-import { links } from "../data/navLinksData";
+import { links } from "../../data/navLinksData";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
