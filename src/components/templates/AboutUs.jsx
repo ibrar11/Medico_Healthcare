@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Features, Divider, Button } from "../index";
-import { featuresList } from "../data/featuresData";
+import { featuresList } from "../../data/featuresData";
 import { Link } from "react-router-dom";
 
 const AboutUs = () => {

@@ -14,7 +14,7 @@ module.exports = {
         container: "1180px",
       },
       padding: {
-        "7.5":"30px"
+        7.5: "30px",
       },
       height: {
         13.5: "54px",
@@ -29,6 +29,16 @@ module.exports = {
         "3.5xl": "32px",
         "46px": "46px",
         10: "40px",
+      },
+      width: {
+        90.5: "362px",
+      },
+      inset:{
+        "2/5":"40%",
+      },
+      backgroundImage: {
+        'next-slide': "url('../public/images/right-circle-arrow-line.svg')",
+        'prev-slide': "url('../public/images/left-circle-arrow-line.svg')",
       },
     },
   },

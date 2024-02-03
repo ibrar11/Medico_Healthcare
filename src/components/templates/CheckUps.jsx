@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Divider, Features, Button } from "../index";
-import { checkUpFeatures } from "../data/featuresData";
+import { checkUpFeatures } from "../../data/featuresData";
 import { Link } from "react-router-dom";
 
 const CheckUps = () => {
@@ -20,7 +20,7 @@ const CheckUps = () => {
               <h3 className="lg:text-10 text-2xl font-bold leading-normal md:text-4xl">
                 Health Checkup Plans
               </h3>
-              <p className="text-center text-base leading-normal md:text-xl">
+              <p className="text-center text-base font-medium leading-normal md:text-xl">
                 They live in Bookmarks grove right at the coast of the
                 Semantics, a large language ocean named flows.
               </p>

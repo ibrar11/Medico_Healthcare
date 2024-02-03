@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Divider, TreatmentCard } from "../index";
-import { treatmentCards } from "../data/treatmentCardData";
+import { treatmentCards } from "../../data/treatmentCardData";
 
 const Treatments = () => {
   return (
