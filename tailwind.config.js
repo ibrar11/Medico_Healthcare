@@ -40,6 +40,9 @@ module.exports = {
         'next-slide': "url('../public/images/right-circle-arrow-line.svg')",
         'prev-slide': "url('../public/images/left-circle-arrow-line.svg')",
       },
+      borderWidth: {
+        "1px":"1px",
+      }
     },
   },
   plugins: [],
