@@ -64,9 +64,8 @@ const Header = () => {
               <ul className="flex flex-col pl-4 lg:flex-row lg:items-center">
                 {links.map((link) => {
                   return (
-                    <li className="px-2 py-2">
+                    <li className="px-2 py-2" key={link.key}>
                       <NavLink
-                        key={link.key}
                         to={link.to}
                         className={({ isActive }) =>
                           `p-2 decoration-primary underline-offset-2 hover:text-primary ${isActive ? "text-primary" : ""} `

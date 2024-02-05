@@ -1,11 +1,10 @@
 import React from "react";
 
 const ListItem = ({
-  icon,
-  text,
+  icon = "",
+  text = "",
   styles = "",
   textStyle = "",
-  textSize = "text-base",
   iconStyle = "",
   alt = "",
 }) => {
@@ -14,7 +13,7 @@ const ListItem = ({
       <span className={`flex justify-center ${iconStyle}`}>
         <img src={icon} alt={alt} className="h-fit w-fit" />
       </span>
-      <p className={`ml-2 ${textSize} ${textStyle}`}>{text}</p>
+      <p className={`ml-2 text-base ${textStyle}`}>{text}</p>
     </div>
   );
 };
