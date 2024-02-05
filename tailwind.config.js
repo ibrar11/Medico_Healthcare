@@ -45,6 +45,9 @@ module.exports = {
         'next-slide': "url('../public/images/right-circle-arrow-line.svg')",
         'prev-slide': "url('../public/images/left-circle-arrow-line.svg')",
       },
+      rotate: {
+        225:"225deg"
+      }
     },
   },
   plugins: [],

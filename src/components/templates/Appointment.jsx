@@ -89,7 +89,9 @@ const Appointment = () => {
                   <span className="text-base font-medium text-light-grey md:text-lg">
                     {appointment}
                   </span>
-                  <span className="border-b-1 border-r-1 absolute right-0 top-1.5 rotate-45 border-light-grey p-1"></span>
+                  <span
+                    className={`border-b-1 border-r-1 absolute right-0 top-1.5 ${dropDown ? "rotate-225 top-3" : "rotate-45"} border-light-grey p-1`}
+                  ></span>
                 </div>
                 <div
                   className={`border-1 absolute left-0 right-0 top-full ${dropDown ? "flex flex-col" : "hidden"} rounded-lg border-solid border-c-grey bg-white`}
