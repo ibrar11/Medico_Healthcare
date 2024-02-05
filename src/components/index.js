@@ -16,6 +16,7 @@ export { default as Treatments } from "./templates/Treatments";
 export { default as CheckUps } from "./templates/CheckUps";
 export { default as Services } from "./templates/Services";
 export { default as AboutUs } from "./templates/AboutUs";
+export { default as Appointment } from "./templates/Appointment";
 export { default as FeedBack } from "./templates/FeedBack";
 
 export { default as Footer } from "./templates/Footer";
