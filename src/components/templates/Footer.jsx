@@ -33,7 +33,7 @@ const Footer = () => {
                     textStyle="font-bold text-base leading-normal md:text-xl sm:text-lg ml-0"
                     alt="arrowCursor"
                     iconStyle="max-w-4"
-                    styles="gap-x-5 border-1px border-solid border-white p-4 rounded-lg ml-0"
+                    styles="gap-x-5 border-1 border-solid border-white p-4 rounded-lg ml-0"
                   />
                 </Link>
                 <Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                     textStyle="font-bold text-base leading-normal md:text-xl sm:text-lg ml-0"
                     alt="whatsapp"
                     iconStyle="max-w-5"
-                    styles="gap-x-4 border-1px border-solid border-white p-4 rounded-lg"
+                    styles="gap-x-4 border-1 border-solid border-white p-4 rounded-lg"
                   />
                 </Link>
               </div>
