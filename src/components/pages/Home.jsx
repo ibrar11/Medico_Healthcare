@@ -16,8 +16,8 @@ const Home = () => {
       <Services />
       <AboutUs />
       <CheckUps />
-      <Appointment />
       <FeedBack/>
+      <Appointment />
     </>
   );
 };
