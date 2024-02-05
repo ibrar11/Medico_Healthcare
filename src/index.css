@@ -36,3 +36,19 @@
     font-family: "Satoshi", sans-serif;
   }
 }
+
+.swiper-button-next {
+  @apply invisible md:visible bg-next-slide h-12 w-12 bg-contain bg-center bg-no-repeat !important;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev {
+  @apply invisible md:visible bg-prev-slide h-12 w-12 bg-contain bg-center bg-no-repeat !important;
+  /* @apply sm:invisible sm:hidden; */
+}
+
+.swiper-button-prev::after {
+  display: none;
+}

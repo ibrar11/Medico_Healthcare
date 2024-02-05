@@ -4,7 +4,7 @@ import {
   HeroSection,
   Services,
   AboutUs,
-  CheckUps,
+  CheckUps, FeedBack,
   Appointment,
 } from "../index";
 
@@ -17,6 +17,7 @@ const Home = () => {
       <AboutUs />
       <CheckUps />
       <Appointment />
+      <FeedBack/>
     </>
   );
 };
