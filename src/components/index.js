@@ -3,7 +3,7 @@ export { default as Container } from "./Container";
 export { default as Button } from "./Button";
 export { default as Divider } from "./Divider";
 export { default as TreatmentCard } from "./TreatmentCard";
-export { default as ServiceCard} from "./ServiceCard";
+export { default as ServiceCard } from "./ServiceCard";
 export { default as Features } from "./Features";
 
 // Sections
@@ -14,6 +14,7 @@ export { default as Treatments } from "./templates/Treatments";
 export { default as CheckUps } from "./templates/CheckUps";
 export { default as Services } from "./templates/Services";
 export { default as AboutUs } from "./templates/AboutUs";
+export { default as Appointment } from "./templates/Appointment";
 
 // Pages
 export { default as Home } from "./pages/Home";

@@ -1,14 +1,22 @@
 import React from "react";
-import { Treatments, HeroSection, Services, AboutUs, CheckUps } from "../index";
+import {
+  Treatments,
+  HeroSection,
+  Services,
+  AboutUs,
+  CheckUps,
+  Appointment,
+} from "../index";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
       <Treatments />
-      <Services/>
-      <AboutUs/>
-      <CheckUps/>
+      <Services />
+      <AboutUs />
+      <CheckUps />
+      <Appointment />
     </>
   );
 };

@@ -14,7 +14,7 @@ module.exports = {
         container: "1180px",
       },
       padding: {
-        "7.5":"30px"
+        7.5: "30px",
       },
       height: {
         13.5: "54px",
@@ -30,6 +30,15 @@ module.exports = {
         "46px": "46px",
         10: "40px",
       },
+      width: {
+        188.5: "475px",
+      },
+      borderWidth: {
+        1: "1px",
+      },
+      inset: {
+        "1.5":"6px",
+      }
     },
   },
   plugins: [],
