@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterSocialLinks = ({ src = "", alt = "" }) => {
   return (
-    <div>
+    <div className="flex items-center  justify-center">
       <img src={src} alt={alt} />
     </div>
   );
