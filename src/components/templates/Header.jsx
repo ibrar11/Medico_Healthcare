@@ -64,7 +64,7 @@ const Header = () => {
               <ul className="flex flex-col pl-4 lg:flex-row lg:items-center">
                 {links.map((link) => {
                   return (
-                    <li className="px-2 py-2" key={link.key}>
+                    <li key={link.key} className="px-2 py-2">
                       <NavLink
                         to={link.to}
                         className={({ isActive }) =>

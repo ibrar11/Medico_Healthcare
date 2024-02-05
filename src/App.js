@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { TopBar, Header, Home, About } from "./components";
+import { TopBar, Header, Home, About, Footer } from "./components";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
